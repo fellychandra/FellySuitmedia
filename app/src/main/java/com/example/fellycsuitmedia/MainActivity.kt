@@ -32,10 +32,10 @@ class MainActivity : AppCompatActivity() {
                 val reverseStrs = sbs.reverse().toString()
                 //bandingin text terbalik dengan inputan
                 if (hilangspace.equals(reverseStrs, ignoreCase = true)){
-                    Toast.makeText(applicationContext, "isPalindrome", Toast.LENGTH_LONG).show()
+                    Toast.makeText(applicationContext, "isPalindrome", Toast.LENGTH_SHORT).show()
                     Log.e("testpalindrom","test:${hilangspace.equals(reverseStrs, ignoreCase = true)} ")
                 }else{
-                    Toast.makeText(applicationContext, "not Palindrome", Toast.LENGTH_LONG).show()
+                    Toast.makeText(applicationContext, "not Palindrome", Toast.LENGTH_SHORT).show()
                     Log.e("testnopalindrom","test:${hilangspace.equals(reverseStrs, ignoreCase = true)} ")
                 }
             }
